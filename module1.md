@@ -15,11 +15,11 @@
 ## Distros.
 > As Linux is an open source technology and anyone can change or customize things and create their own version. When this versions gets polished this results into distros. There are thousands of distro out their here are some the popular ones: 
 
-> 1. [Red Hat.][www.redhat.org]  
-> 1. [Ubuntu.][www.ubuntu.org] 
-> 1. [Debian.][www.debian.org]  
-> 1. [Arch.][www.archlinux.org]  
-> 1. [Linux Mint.][www.archlinux.org]  
+1. [Red Hat.][https://www.redhat.com/en]  
+1. [Ubuntu.][https://www.ubuntu.com]
+1. [Debian.][https://www.debian.org]
+1. [Arch.][https://www.archlinux.org]
+1. [Linux Mint.][https://www.linuxmint.com]
 
 ## Red Hat Linux:
 > Red Hat linux is not a free though you can use fedora and get the same experience. This distribution is rock stable and is mainly used for servers. Fedora is just the free version of Red hat Linux. It uses RPM as it's package manager. 
