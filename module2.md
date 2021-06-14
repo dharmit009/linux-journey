@@ -199,14 +199,34 @@ subtest
 > This command is used to remove directories. If a directory contains file or subfolder you will need to use '-r' switch in order to delete as by default it will only delete directories which are empty. 
 
 ``` 
-mkdir test
-ls
+$ mkdir test
+$ ls
 test
-rmdir test
-ls
-mkdir -p test/subtest
-ls
-ls test
-rmdir test
+$ rmdir test
+$ ls
+$ mkdir -p test/subtest
+$ ls
+test
+$ ls test
+$  rmdir test
+[v0id@tortoise test]$ rmdir test
+rmdir: failed to remove 'test': Directory not empty
 rmdir -r test
 ``` 
+
+### find
+
+> find is used to find stuff in a particular directory. You can even specify what type of stuff you are trying to find. 
+
+```
+$ find ~/ -name file1
+file1
+$ find ~/ -type d -name folder1 <-- -type d stands for directory
+./folder1
+$ find ./ -name README.md
+./git/README.md
+./CommonMark/README.md
+./gotest/README.md
+./README.md
+```
+
