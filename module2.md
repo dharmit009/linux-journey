@@ -230,3 +230,59 @@ $ find ./ -name README.md
 ./README.md
 ```
 
+### help
+
+> With hundreds of command we cannot remember each and every one of them with switches so help program was introduced. help command will show you a short usage of the command with available switches. 
+
+Note: Not all the commands are available in help. In some cases you can use man or some <commandName> --help. 
+
+```
+$ man echo
+$ echo --help
+--help <-- it does not return what you want. 
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+    Options:
+      -n	do not append a newline
+      -e	enable interpretation of the following backslash escapes
+      -E	explicitly suppress interpretation of backslash escapes
+```
+
+### man
+
+> man stands for manual and it is exactly that a manual for commands. It is simple to use and provides comprehensive guide on commands. 
+
+```
+FOR MORE INFORMATION TRY, 
+$ man man 
+```
+Note: To quit from pager you will need to press 'q' to quit.
+
+### whatis 
+
+> whatis provides a single line description of a command. 
+
+```
+$ whatis whatis
+whatis (1)           - display one-line manual page descriptions
+$ whatis ls 
+ls (1)               - list directory contents
+$ whatis man 
+man (1)              - an interface to the system reference manuals
+man (1p)             - display system documentation
+man (7)              - macros to format man pages
+```
+### alias
+
+> One of the cool thing about linux is customization and here is one of them `aliases`. There are certain commands which we repetitively or i should say continously so alias can help us shorten the typing work.
+
+```
+$ alias c='clear'
+```
+Note: each and every alias get removed as soon as you restart the system. If you want persistent aliases you will need to add them to your shell config file. Most distros use bash so it would .bashrc and for zsh users it would be .zshrc. 
+
+### exit 
+
+> It is used to exit from a shell prompt or from a session of tmux. 
+
